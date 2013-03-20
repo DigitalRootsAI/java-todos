@@ -24,14 +24,16 @@ If you do anything above and beyond, please explain what and why.
 Getting Started:
 ----------------
 
-> mvn package
-> mvn jetty:run
+```bash
+mvn package
+mvn jetty:run
+```
 
 Then, visit 
-http://localhost:8080/java-todos/
+[http://localhost:8080/java-todos/](http://localhost:8080/java-todos/)
 
 All API endpoints are mounted at /apis, e.g.:
 
-http://localhost:8080/java-todos/api/todos
+[http://localhost:8080/java-todos/api/todos](http://localhost:8080/java-todos/api/todos)
 
 Good luck!
